@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.root{
+    --primary-color: #edf2fc;
+    --secondary-color:#212121;
+}
+
+.top-section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/yv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-right: 15%;
+
+}
+.content a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content a:hover{
+    transition: .4s;
+    color: black;
+
+}
+.header{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: gray;
+
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-left: 38%;
+    position: absolute;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    color: rgb(192, 181, 181);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: black;
+    transition: 0.4 s;
+}
+
+.content{
+    position:absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.text-section{
+    width: 550px;
+}
+.text-section a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+}
+.main-body{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-section h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.text-section h5{
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.text-section h5 span{
+    color: gray;
+}
+button{
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.service{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+.card{
+    height: 370px;
+    width: 340px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card svg{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black; 
+
+}
+.card h5{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.des p{
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    
+    font-weight: bold;
+    padding: 9px 20px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid gray;
+    cursor: pointer;
+
+}
+.contact{
+    width: 100%;
+    padding: 100px 0px;
+}
+.contact img{
+    height: auto;
+    width: 300px;
+    margin-top: 10%;
+    position: absolute;
+    margin-right: 70%;    
+
+}
+.findme{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    max-width: 95%;
+    justify-content: space-around;
+    align-items: center;
+}
+.tsec h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    
+}
+.box1{
+    
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.card1{
+    text-align: center;
+    position: relative;
+    height: 370px;
+    width: 700px;
+    display: flex;
+    overflow: hidden;
+    position: center;
+    
+    justify-content: center;
+}
+.card1 svg{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+ 
+
+}
+.card1 a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer a{
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.footer a:hover{
+    transition: 0.4s;
+    color: black;
+    cursor: pointer;
+}
